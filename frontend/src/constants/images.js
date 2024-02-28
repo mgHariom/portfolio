@@ -35,6 +35,10 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import profile_2 from '../assets/profile_2.png';
+import profile_2_edit from '../assets/profile_2_edit.png';
+import profile_img1 from '../assets/profile_img1.png';
+import Hariom_logos from '../assets/Hariom_logos.png';
 
 export default {
   email,
@@ -71,4 +75,8 @@ export default {
   skype,
   spotify,
   profile_1,
+  profile_2,
+  profile_2_edit,
+  profile_img1,
+  Hariom_logos
 };

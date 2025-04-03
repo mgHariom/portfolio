@@ -24,19 +24,21 @@ const Navbar = () => {
           {
             toggle && (
               <motion.div
-                whileInView={{x : [300, 0]}}
-                transition={{duration: 0.85, ease: 'easeOut'}}
+                whileInView={{ x: [300, 0] }}
+                transition={{ duration: 0.85, ease: "easeOut" }}
               >
-                <HiX onClick={() => setToggle(false)}/>
+                <HiX onClick={() => setToggle(false)} />
                 <ul>
-                  {['home', 'about', 'Work', 'skills', 'contact'].map((item) => (
-                    <li className= 'app__flex p-text' key={`link${item}`}>
-                      <div/>
-                      <a href='#${item}'>{item}</a>
+                  {["home", "about", "Work", "skills", "contact"].map((item) => (
+                    <li className="app__flex p-text" key={`link${item}`}>
+                      <div />
+                      <a href={`#${item}`} onClick={() => setToggle(false)}>
+                        {item}
+                      </a>
                     </li>
                   ))}
                 </ul>
-              </motion.div> 
+              </motion.div>
             )
           }
       </div>

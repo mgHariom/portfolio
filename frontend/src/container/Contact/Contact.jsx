@@ -42,10 +42,10 @@ const Contact = () => {
         <div className="app__contact-cards">
           <div className="app__contact-card ">
             <img src={images.email} alt="email" />
-            <a href="mailto:mghariom17@gmail.com.com" className="p-text">mghariom17@gmail.com.com</a>
+            <a href="mailto:mghariom17@gmail.com" className="p-text">mghariom17@gmail.com</a>
           </div>
         </div>
-        {!isFormSubmitted ? (
+        {/* {!isFormSubmitted ? (
           <div className="app__contact-form app__flex">
             <div className="app__flex">
               <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
@@ -70,7 +70,7 @@ const Contact = () => {
               Thank you for getting in touch!
             </h3>
           </div>
-        )}
+        )} */}
       </>
     );
 }
